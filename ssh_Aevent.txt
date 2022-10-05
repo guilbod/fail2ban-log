@@ -1,0 +1,153 @@
+2018-11-30 10:04:32,348 fail2ban.transmitter    [17680]: WARNING Command ['status', 'ssh-iptables'] has failed. Received UnknownJailException('ssh-iptables',)
+2019-11-17 18:47:26,413 fail2ban.jail           [4002]: INFO    Creating new jail 'ssh-iptables'
+2019-11-17 18:47:26,683 fail2ban.jail           [4002]: INFO    Jail 'ssh-iptables' uses systemd {}
+2019-11-17 18:47:26,755 fail2ban.filtersystemd  [4002]: INFO    [ssh-iptables] Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2019-11-17 18:47:26,784 fail2ban.jail           [4002]: INFO    Jail 'ssh-iptables' started
+2019-11-22 14:28:41,918 fail2ban.filter         [4002]: INFO    [ssh-iptables] Found 78.198.27.23 - 2019-11-22 14:28:40
+2019-11-22 14:30:17,848 fail2ban.filter         [4002]: INFO    [ssh-iptables] Found 78.198.27.23 - 2019-11-22 14:30:17
+2019-11-22 14:30:26,390 fail2ban.filter         [4002]: INFO    [ssh-iptables] Found 78.198.27.23 - 2019-11-22 14:30:25
+2019-11-22 14:30:26,391 fail2ban.filter         [4002]: INFO    [ssh-iptables] Found 78.198.27.23 - 2019-11-22 14:30:25
+2019-11-22 14:30:26,473 fail2ban.actions        [4002]: NOTICE  [ssh-iptables] Ban 78.198.27.23
+2019-11-22 14:30:37,038 fail2ban.filter         [4002]: INFO    [ssh-iptables] Found 78.198.27.23 - 2019-11-22 14:30:36
+2019-11-22 14:30:37,040 fail2ban.filter         [4002]: INFO    [ssh-iptables] Found 78.198.27.23 - 2019-11-22 14:30:36
+2019-11-22 14:30:42,140 fail2ban.filter         [4002]: INFO    [ssh-iptables] Found 78.198.27.23 - 2019-11-22 14:30:41
+2019-11-22 14:30:42,141 fail2ban.filter         [4002]: INFO    [ssh-iptables] Found 78.198.27.23 - 2019-11-22 14:30:41
+2019-11-22 14:30:42,242 fail2ban.actions        [4002]: NOTICE  [ssh-iptables] 78.198.27.23 already banned
+2019-11-22 14:31:13,091 fail2ban.actions        [4002]: NOTICE  [ssh-iptables] Unban 78.198.27.23
+2019-12-09 13:56:55,614 fail2ban.filter         [4002]: INFO    [ssh-iptables] Found 78.198.27.23 - 2019-12-09 13:56:54
+2020-01-03 18:39:22,015 fail2ban.actions        [4002]: NOTICE  [ssh-iptables] Flush ticket(s) with iptables
+2020-01-03 18:39:23,235 fail2ban.jail           [4002]: INFO    Jail 'ssh-iptables' stopped
+2020-01-03 18:40:27,266 fail2ban.jail           [1823]: INFO    Creating new jail 'ssh-iptables'
+2020-01-03 18:40:27,717 fail2ban.jail           [1823]: INFO    Jail 'ssh-iptables' uses systemd {}
+2020-01-03 18:40:27,795 fail2ban.filtersystemd  [1823]: INFO    [ssh-iptables] Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2020-01-03 18:40:27,833 fail2ban.jail           [1823]: INFO    Jail 'ssh-iptables' started
+2020-01-13 13:18:08,558 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:18:07
+2020-01-13 13:18:21,285 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:18:20
+2020-01-13 13:18:35,034 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:18:34
+2020-01-13 13:18:35,780 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Ban 125.90.175.66
+2020-01-13 13:18:43,656 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:18:43
+2020-01-13 13:18:46,284 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:18:45
+2020-01-13 13:18:56,535 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:18:56
+2020-01-13 13:18:56,735 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:18:59,034 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:18:58
+2020-01-13 13:19:08,866 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:19:08
+2020-01-13 13:19:12,491 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:19:12
+2020-01-13 13:19:12,761 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:19:21,960 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:19:21
+2020-01-13 13:19:24,784 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:19:24
+2020-01-13 13:19:35,361 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:19:35
+2020-01-13 13:19:35,396 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:19:37,784 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:19:37
+2020-01-13 13:19:47,720 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:19:47
+2020-01-13 13:19:49,784 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:19:49
+2020-01-13 13:19:50,020 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:20:15,284 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:20:15
+2020-01-13 13:20:20,868 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Unban 125.90.175.66
+2020-01-13 13:20:26,491 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:20:26
+2020-01-13 13:20:28,991 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:20:28
+2020-01-13 13:20:29,112 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Ban 125.90.175.66
+2020-01-13 13:20:38,286 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:20:37
+2020-01-13 13:20:42,171 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:20:41
+2020-01-13 13:20:59,188 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Unban 125.90.175.66
+2020-01-13 13:21:03,786 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:21:03
+2020-01-13 13:21:03,840 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Ban 125.90.175.66
+2020-01-13 13:21:06,492 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:21:06
+2020-01-13 13:21:16,612 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:21:16
+2020-01-13 13:21:19,784 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:21:19
+2020-01-13 13:21:19,896 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:21:33,534 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:21:33
+2020-01-13 13:21:46,034 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:21:45
+2020-01-13 13:21:49,943 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Unban 125.90.175.66
+2020-01-13 13:21:54,700 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:21:54
+2020-01-13 13:21:55,189 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Ban 125.90.175.66
+2020-01-13 13:21:56,786 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:21:56
+2020-01-13 13:22:10,284 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:22:09
+2020-01-13 13:22:23,035 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:22:22
+2020-01-13 13:22:23,268 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:22:34,455 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:22:34
+2020-01-13 13:22:36,784 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:22:36
+2020-01-13 13:22:46,525 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:22:46
+2020-01-13 13:22:47,306 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:22:48,991 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:22:48
+2020-01-13 13:22:59,535 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:22:59
+2020-01-13 13:23:01,784 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:23:01
+2020-01-13 13:23:01,930 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:23:11,392 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:23:11
+2020-01-13 13:23:13,284 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:23:12
+2020-01-13 13:23:24,284 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:23:23
+2020-01-13 13:23:24,573 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:23:27,284 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:23:26
+2020-01-13 13:23:37,112 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:23:36
+2020-01-13 13:23:39,284 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:23:38
+2020-01-13 13:23:39,397 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:24:02,036 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:24:01
+2020-01-13 13:24:04,534 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:24:04
+2020-01-13 13:24:09,444 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Unban 125.90.175.66
+2020-01-13 13:24:14,656 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:24:14
+2020-01-13 13:24:14,683 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Ban 125.90.175.66
+2020-01-13 13:24:17,035 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:24:16
+2020-01-13 13:24:40,780 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:24:40
+2020-01-13 13:24:43,035 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:24:42
+2020-01-13 13:24:43,362 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:24:53,285 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:24:52
+2020-01-13 13:24:55,534 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:24:55
+2020-01-13 13:25:05,953 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:25:05
+2020-01-13 13:25:05,998 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:25:08,034 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:25:07
+2020-01-13 13:25:17,747 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:25:17
+2020-01-13 13:25:19,784 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:25:19
+2020-01-13 13:25:20,020 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:25:30,483 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:25:30
+2020-01-13 13:25:32,990 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:25:32
+2020-01-13 13:25:50,867 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Unban 125.90.175.66
+2020-01-13 13:26:09,762 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:26:09
+2020-01-13 13:26:10,127 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Ban 125.90.175.66
+2020-01-13 13:26:12,741 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:26:12
+2020-01-13 13:26:21,157 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:26:21
+2020-01-13 13:26:23,991 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:26:23
+2020-01-13 13:26:24,188 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:26:47,703 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:26:47
+2020-01-13 13:26:50,241 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:26:49
+2020-01-13 13:26:54,235 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Unban 125.90.175.66
+2020-01-13 13:26:59,785 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:26:59
+2020-01-13 13:27:00,275 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] Ban 125.90.175.66
+2020-01-13 13:27:02,286 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:27:01
+2020-01-13 13:27:13,035 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:27:12
+2020-01-13 13:27:16,784 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:27:16
+2020-01-13 13:27:16,934 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:27:24,903 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:27:24
+2020-01-13 13:27:26,784 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:27:26
+2020-01-13 13:27:38,036 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:27:37
+2020-01-13 13:27:38,367 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:27:41,993 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:27:41
+2020-01-13 13:27:51,523 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:27:51
+2020-01-13 13:27:53,991 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:27:53
+2020-01-13 13:27:54,390 fail2ban.actions        [1823]: NOTICE  [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:28:04,035 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:28:03
+2020-01-13 13:28:06,399 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:28:06
+2020-01-13 13:28:16,768 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:28:16
+2020-01-13 13:28:17,025 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:28:19,034 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:28:18
+2020-01-13 13:28:28,731 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:28:28
+2020-01-13 13:28:31,034 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:28:30
+2020-01-13 13:28:31,046 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:28:41,642 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:28:41
+2020-01-13 13:28:43,534 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:28:43
+2020-01-13 13:28:54,535 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:28:54
+2020-01-13 13:28:54,682 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:28:57,034 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:28:56
+2020-01-13 13:29:06,858 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:29:06
+2020-01-13 13:29:09,034 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:29:08
+2020-01-13 13:29:09,105 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:29:19,357 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:29:19
+2020-01-13 13:29:21,284 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:29:21
+2020-01-13 13:29:34,787 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:29:34
+2020-01-13 13:29:35,145 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:29:37,534 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:29:37
+2020-01-13 13:29:44,471 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:29:44
+2020-01-13 13:29:46,991 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:29:46
+2020-01-13 13:29:47,160 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
+2020-01-13 13:29:57,950 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:29:57
+2020-01-13 13:30:00,491 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:30:00
+2020-01-13 13:30:10,203 fail2ban.filter         [1823]: INFO    [ssh-iptables] Found 125.90.175.66 - 2020-01-13 13:30:09
+2020-01-13 13:30:10,599 fail2ban.actions        [1823]: WARNING [ssh-iptables] 125.90.175.66 already banned
